@@ -1,6 +1,22 @@
+* {
+  z-index: 2;
+}
+
+#particles-js {
+  background: cornflowerblue;
+  canvas {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+}
+
 .header {
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+

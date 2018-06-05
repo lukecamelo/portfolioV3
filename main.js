@@ -23,3 +23,33 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 })
+
+particlesJS('particles-js', 
+{
+  "particles": {
+    "number": {
+      "value": 100
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "value": 10,
+      "random": true
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "bottom",
+      "straight": false
+    }
+  },
+  "interactivity": {
+     
+  }
+}, function() {
+  console.log('particles.js activate!')
+});
