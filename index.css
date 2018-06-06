@@ -3,7 +3,7 @@
 }
 
 #particles-js {
-  background: cornflowerblue;
+  background: #578caa;
 }
 
 #particles-js canvas {
@@ -19,5 +19,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.about {
+  margin-top: 2rem;
+}
+
+.about .selfie {
+  border-radius: 50%;
 }
 /*# sourceMappingURL=index.css.map */
