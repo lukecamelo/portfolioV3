@@ -22,10 +22,18 @@
 
 .about {
 
+  display: flex;
+  justify-content: space-around;
   margin-top: 2rem;
+  margin-bottom: 5rem;
 
   .selfie {
     border-radius: 50%;
+  }
+
+  .blurb {
+    display: flex;
+    align-items: center;
   }
 }
 
