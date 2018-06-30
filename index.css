@@ -53,6 +53,10 @@
           align-items: center;
 }
 
+.project .card {
+  margin-bottom: 3rem;
+}
+
 #experience .bullet-icon {
   color: #23d160;
 }
