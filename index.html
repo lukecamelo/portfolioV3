@@ -84,9 +84,9 @@
   </section>
 
   <section class="container projects" id='projects'>
-    <h1 class="title">Projects</h1><hr>
+    <h1 data-aos='fade-right' class="title">Projects</h1><hr>
 
-    <section data-aos='fade-up' class="container" id='project'>
+    <section data-aos='flip-up' class="container" id='project'>
       <div class="columns project">
   
         <div class="column is-two-thirds card">
@@ -125,7 +125,7 @@
     </section>
   </section>
 
-  <section data-aos='fade-up' class="container" id='project'>
+  <section data-aos='flip-down' class="container" id='project'>
     <div class="columns project">
 
       <div class="column is-two-thirds card">
@@ -164,7 +164,7 @@
   </section>
 </section>
 
-<section data-aos='fade-up' class="container" id='project'>
+<section data-aos='flip-up' class="container" id='project'>
   <div class="columns project">
 
     <div class="column is-two-thirds card">
@@ -204,7 +204,7 @@
 </section>
 
 <section class="container" id='experience'>
-  <h1 class="title">Experience</h1><hr>
+  <h1 data-aos='fade-right' class="title">Experience</h1><hr>
 
   <div class="card">
     <div class="card-content">
@@ -259,7 +259,7 @@
 </section>
 
 <section class="container" id='contact'>
-  <h2 class="title">Let's talk.</h2><hr>
+  <h2 data-aos='fade-right' class="title">Let's talk.</h2><hr>
 
   <div class="card">
     <div class="card-content">
@@ -294,7 +294,9 @@
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init()
+    AOS.init({
+      once: true
+    })
   </script>
   <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src='main.js'></script>
