@@ -13,6 +13,11 @@
   left: 0;
 }
 
+.navbar a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .header {
   padding: 0;
   display: -webkit-box;
@@ -78,7 +83,7 @@
 }
 
 #contact .github {
-  color: #999;
+  color: #24292e;
 }
 
 #contact .email {
