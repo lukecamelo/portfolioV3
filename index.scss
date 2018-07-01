@@ -1,5 +1,6 @@
 * {
   z-index: 2;
+  box-sizing: border-box;
 }
 
 #particles-js {
@@ -18,7 +19,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
   }
-  
+
 }
 
 .header {
@@ -27,6 +28,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  .header-arrow {
+    padding-top: 20rem;
+  }
+
 }
 
 .about {
