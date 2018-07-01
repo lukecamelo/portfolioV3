@@ -10,6 +10,7 @@
   integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" 
   crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class='has-navbar-fixed-top'>
 
@@ -70,7 +71,7 @@
           <img  class='selfie' src="https://images.unsplash.com/photo-1528120369764-0423708119ae?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14d1d2c094edfc79aa1701ae43c70d22&auto=format&fit=crop&w=634&q=80" alt="selfie">
         </figure>
       </div>
-      <div class="column is-two-thirds blurb">
+      <div data-aos='fade-up' class="column is-two-thirds blurb">
         <h1 class='title'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
           et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -85,7 +86,7 @@
   <section class="container projects" id='projects'>
     <h1 class="title">Projects</h1><hr>
 
-    <section class="container" id='project'>
+    <section data-aos='fade-up' class="container" id='project'>
       <div class="columns project">
   
         <div class="column is-two-thirds card">
@@ -124,7 +125,7 @@
     </section>
   </section>
 
-  <section class="container" id='project'>
+  <section data-aos='fade-up' class="container" id='project'>
     <div class="columns project">
 
       <div class="column is-two-thirds card">
@@ -163,7 +164,7 @@
   </section>
 </section>
 
-<section class="container" id='project'>
+<section data-aos='fade-up' class="container" id='project'>
   <div class="columns project">
 
     <div class="column is-two-thirds card">
@@ -291,6 +292,10 @@
   </div>
 </section>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
   <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src='main.js'></script>
 </body>
