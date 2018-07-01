@@ -68,4 +68,20 @@
 #experience h3 strong {
   color: #1da74d;
 }
+
+#contact .linkedin {
+  color: #0077B5;
+}
+
+#contact .twitter {
+  color: #0084b4;
+}
+
+#contact .github {
+  color: #999;
+}
+
+#contact .email {
+  color: #c71610;
+}
 /*# sourceMappingURL=index.css.map */
